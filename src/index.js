@@ -10,7 +10,7 @@ app.get("/courses", (request, response) => {
 
   return response.json(["Curso 1", "Curso 2", "Curso 3", "Curso 4"]);
 });
-
+ 
 app.post("/courses", (request, response) => {
   const body = request.body;
   console.log(body);
